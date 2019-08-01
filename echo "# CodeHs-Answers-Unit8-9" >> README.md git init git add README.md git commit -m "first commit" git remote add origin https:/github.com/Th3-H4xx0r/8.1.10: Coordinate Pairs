@@ -1,0 +1,12 @@
+import math;
+
+
+def distance(point1, point2):
+    x = (point2[1] - point1[1])**2
+    y = (point2[0] - point1[0])**2
+    z = x + y
+    return math.sqrt(z)
+
+
+# This should print 5.0
+print distance((1, 1), (4, 5))
