@@ -1,10 +1,10 @@
 my_list = [5, 2, -5, 10, 23, -21]
 
-def max_int_in_list(x):
+def max_int_in_list(my_list):
     max_num = 0
-    for i in range(len(x)):
-        if x[i] > max_num:
-            max_num = x[i]
+    for i in range(len(my_list)):
+        if my_list[i] > max_num:
+            max_num = my_list[i]
     return max_num
 
-print max_int_in_list([5, 2, -5, 10, 23, -21])
+print (max_int_in_list(my_list))
